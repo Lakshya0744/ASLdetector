@@ -31,7 +31,7 @@ POSE_PAIRS = [ ["Neck", "RShoulder"], ["Neck", "LShoulder"], ["RShoulder", "RElb
 net = cv2.dnn.readNetFromTensorflow("graph_opt.pb")
 
 # Now taking input from webcam. To be modified to video input instead of 0 once palm detection algo is done
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture("/Users/aryyamakumarjana/Downloads/sample.MOV")
 
 while True:
     # Store Returns and frames from video
