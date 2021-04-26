@@ -99,7 +99,7 @@ if option == '2':
         lastframe = -1
 
 
-        for i in range( 50 ):
+        for i in range(len(coordRWx)-1):
             lThres = 0.4
             movRWx = coordRWx[i + 1] - coordRWx[i]
             movRWy = coordRWy[i + 1] - coordRWy[i]
