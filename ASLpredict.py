@@ -47,6 +47,8 @@ if option == '1':
         
         path_to_test = join( path_to_frames, video )
         arrPred = predict_labels_from_frames( path_to_test )
+#         For debugging purpose
+        print(arrPred)
         
         # Calculate Prediction and handle none cases
         try:
