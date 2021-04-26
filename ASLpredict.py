@@ -14,6 +14,8 @@ def listdir_nohidden(path):
         if not f.startswith('.'):
             yield f
 
+os.system('python3 clean.py')
+
 print("What do you want to predict ?  \n1. Letters \n2. Words")
 
 option = input( "Please select one of the choices: " )
